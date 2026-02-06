@@ -1,0 +1,38 @@
+{
+    "jumbotron": {
+        "title": "Innovative, Creative, and Dedicated",
+        "description": "Innovation without meaning is empty, creation without art is lifeless. From thoughts to code, I turn dreams into action.",
+        "badges": [
+            "Full-Stack",
+            "Web Developer"
+        ]
+    },
+    "experiences": {
+        "title": "Work & Internship Experience",
+        "description": "My professional journey in the world of frontend development.",
+        "badges": [
+            "Experiences"
+        ]
+    },
+    "skills": {
+        "title": "My Technical Expertise",
+        "description": "I've worked with a variety of technologies and frameworks to create exceptional digital experiences.",
+        "badges": [
+            "Skills"
+        ]
+    },
+    "gallery": {
+        "title": "Featured Work",
+        "description": "Check out some of my recent projects and collaborations.",
+        "badges": [
+            "Projects"
+        ]
+    },
+    "contact": {
+        "title": "Let's Work Together",
+        "description": "I'm currently available for freelance work and full-time positions. If you're interested in working together, please get in touch.",
+        "badges": [
+            "Contact"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "year": "Jan 2026",
+    "title": "Web Application Developer",
+    "place": "SMK Bayt Al-Hikmah",
+    "badges": [
+      "React.js",
+      "Laravel"
+    ],
+    "content": "Developed an event management application featuring participant management, QR-based attendance tracking, and automated certificate generation.",
+    "filled": true
+  },
+  {
+    "year": "Jan 2026",
+    "title": "Web Developer",
+    "place": "Jember Bowl",
+    "badges": [
+      "React.js",
+      "TypeScript"
+    ],
+    "content": "Built a corporate website with an integrated product ordering system connected directly to WhatsApp based on client requirements."
+  },
+  {
+    "year": "Dec 2024",
+    "title": "Web Application Developer",
+    "place": "SMK Bayt Al-Hikmah",
+    "badges": [
+      "C#",
+      "ASP.NET MVC"
+    ],
+    "content": "Developed a General Election application to support the leadership transition within the internal boarding school organization."
+  },
+  {
+    "year": "Aug — Sep 2024",
+    "title": "Web Development Intern",
+    "place": "Surabaya City Regional Revenue Agency",
+    "badges": [
+      "HTML",
+      "JavaScript",
+      "C#",
+      "ASP.NET MVC"
+    ],
+    "content": "Internship focused on web development, contributing to internal systems using the Microsoft technology stack."
+  },
+  {
+    "year": "Mar — Jun 2024",
+    "title": "Project Leader",
+    "place": "UIN Maulana Malik Ibrahim Malang",
+    "badges": [
+      "Leadership",
+      "CodeIgniter",
+      "Web Development"
+    ],
+    "content": "Led a team of 7 people in developing a conference management application featuring document management and article review systems."
+  }
+]

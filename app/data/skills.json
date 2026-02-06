@@ -1,0 +1,18 @@
+[
+  {
+    "name": "React",
+    "icon": "assets/img/React.svg"
+  },
+  {
+    "name": "Express",
+    "icon": "assets/img/Express.svg"
+  },
+  {
+    "name": "Tailwind",
+    "icon": "assets/img/Tailwind.svg"
+  },
+  {
+    "name": "Laravel",
+    "icon": "assets/img/Laravel.svg"
+  }
+]
