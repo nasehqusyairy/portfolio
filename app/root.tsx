@@ -25,6 +25,21 @@ export const links: Route.LinksFunction = () => [
   },
 ];
 
+export function meta() {
+  return [
+    { title: "Nasyikh's Portfolio" },
+    {
+      property: "og:title",
+      content: "Nasyikh's Portfolio",
+    },
+    {
+      name: "description",
+      content: "Welcome to Nasyikh's personal portfolio website, showcasing projects and skills.",
+    },
+  ];
+}
+
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -34,7 +49,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body id="home" className="bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--border)] md:block">
+      <body id="home" className="md:block bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--border)]">
         <ThemeProvider>
           <Navbar />
           {children}
@@ -67,11 +82,11 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   }
 
   return (
-    <main className="pt-16 p-4 container mx-auto">
+    <main className="mx-auto p-4 pt-16 container">
       <h1>{message}</h1>
       <p>{details}</p>
       {stack && (
-        <pre className="w-full p-4 overflow-x-auto">
+        <pre className="p-4 w-full overflow-x-auto">
           <code>{stack}</code>
         </pre>
       )}
