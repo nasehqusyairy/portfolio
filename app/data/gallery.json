@@ -1,14 +1,14 @@
 [
-  {
-    "src":"/assets/img/jember-bowl.jpeg",
-    "title": "Jember Bowl Corporate Website",
-    "caption": "Showcasing products with WhatsApp integration.",
+    {
+    "src":"/assets/img/english-mate.webp",
+    "thumbnail":"/assets/img/english-mate-thumbnail.jpeg",
+    "title": "English Mate Design Implementation",
+    "caption": "English Course Mobile App UI",
     "badges": [
       "React",
-      "TypeScript",
       "Tailwind"
     ],
-    "colSpan": "lg:col-span-2"
+    "colSpan": "lg:col-span-1"
   },
   {
     "src":"/assets/img/hce.jpeg",
@@ -22,22 +22,22 @@
     "colSpan": "lg:col-span-3"
   },
   {
+    "src":"/assets/img/jember-bowl.jpeg",
+    "title": "Jember Bowl Corporate Website",
+    "caption": "Showcasing products with WhatsApp integration.",
+    "badges": [
+      "React",
+      "TypeScript",
+      "Tailwind"
+    ],
+    "colSpan": "lg:col-span-2"
+  },
+  {
     "src":"/assets/img/icgt.jpg",
     "title": "International Conference Management System",
     "caption": "Managing conferences with ease.",
     "badges": [
       "CodeIgniter"
-    ],
-    "colSpan": "lg:col-span-1"
-  },
-  {
-    "src":"/assets/img/english-mate.webp",
-    "thumbnail":"/assets/img/english-mate-thumbnail.jpeg",
-    "title": "English Mate Design Implementation",
-    "caption": "English Course Mobile App UI",
-    "badges": [
-      "React",
-      "Tailwind"
     ],
     "colSpan": "lg:col-span-1"
   },
