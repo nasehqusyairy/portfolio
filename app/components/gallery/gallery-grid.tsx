@@ -8,7 +8,7 @@ export default () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
-    <div className="">
+    <div className="py-4">
       {/* Container Scroll Horizontal */}
       <div className="flex flex-row items-stretch gap-6 pb-8 overflow-x-auto snap-mandatory snap-x scrollbar-hide">
         {galleryItems.map((item, index) => (
