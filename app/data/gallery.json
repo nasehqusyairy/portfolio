@@ -32,6 +32,7 @@
   },
   {
     "src":"/assets/img/english-mate.webp",
+    "thumbnail":"/assets/img/english-mate-thumbnail.jpeg",
     "title": "English Mate Design Implementation",
     "caption": "English Course Mobile App UI",
     "badges": [

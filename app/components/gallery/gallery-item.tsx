@@ -3,13 +3,14 @@ import { Badge } from "~/components/ui/badge";
 
 type GalleryItemProps = {
   src: string;
+  thumbnail?: string;
   title: string;
   caption: string;
   badges: string[];
   onOpen: () => void; // Prop baru untuk trigger modal
 };
 
-export default ({ src, title, caption, badges, onOpen }: GalleryItemProps) => {
+export default ({ src, title, thumbnail, caption, badges, onOpen }: GalleryItemProps) => {
   return (
     <Card
       className="group flex flex-col border-transparent lg:border-border rounded-xl w-full h-full overflow-hidden cursor-pointer"
@@ -18,7 +19,7 @@ export default ({ src, title, caption, badges, onOpen }: GalleryItemProps) => {
       {/* Gambar dengan Rasio Tetap */}
       <div className="relative lg:px-6 aspect-video overflow-hidden">
         <img
-          src={src}
+          src={thumbnail || src}
           alt={title}
           loading="lazy"
           className="rounded-md w-full h-full object-cover"

@@ -5,7 +5,7 @@ import GalleryItem from './gallery-item';
 import galleryItems from '~/data/gallery.json';
 
 export default () => {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedImage, setSelectedImage] = useState<string>();
 
   return (
     <div className="py-4">
@@ -23,7 +23,7 @@ export default () => {
       </div>
 
       {/* Modal Tunggal di Parent */}
-      <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>
+      <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(undefined)}>
         <DialogContent className="flex justify-center items-center bg-transparent shadow-none p-0 border-none focus:outline-none max-w-[95vw] md:max-w-[85vw] overflow-hidden">
           <div className="relative flex justify-center items-center w-full h-full">
             <DialogClose className="top-4 right-4 z-50 absolute bg-black/50 hover:bg-black/80 p-2 rounded-full text-white transition-all">
