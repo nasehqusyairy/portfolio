@@ -46,7 +46,7 @@ export default function Home() {
       <Gallery config={gallery} />
       <Contact config={contact} />
       <Section className="lg:flex justify-between items-center lg:pt-12">
-        <p className="pt-12 lg:pt-0 pb-4 text-foreground">© 2025 Moh. Nasyikh Al-Qusyairy. All rights reserved.</p>
+        <p className="pt-12 lg:pt-0 pb-4 text-foreground">© {new Date().getFullYear()} Moh. Nasyikh Al-Qusyairy. All rights reserved.</p>
         <div className="flex gap-2 pb-4">
           {socmeds.map((socmed: SocialMedia, i) => (
             <Button variant={"ghost"} size={"icon"} asChild key={'footer-socmed-links-' + i}>
