@@ -20,6 +20,7 @@ export default ({ src, title, caption, badges, onOpen }: GalleryItemProps) => {
         <img
           src={src}
           alt={title}
+          loading="lazy"
           className="rounded-md w-full h-full object-cover"
         />
       </div>

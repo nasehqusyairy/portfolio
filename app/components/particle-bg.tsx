@@ -32,6 +32,7 @@ export default () => {
 
   const options: ISourceOptions = useMemo(
     () => ({
+      clear: true,
       style: {
         position: "absolute",
         top: "0",
