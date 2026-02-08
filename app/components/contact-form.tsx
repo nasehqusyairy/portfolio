@@ -33,7 +33,7 @@ export default function ContactForm() {
 
         {/* Input Nomor WA Pengirim */}
         <div className="py-4 ps-2 pe-4 border-b border-dashed w-6/12">
-          <Label className="mb-2" htmlFor="visitorPhone">WhatsApp Number</Label>
+          <Label className="mb-2" htmlFor="visitorPhone">WhatsApp</Label>
           <Input
             id="visitorPhone"
             name="visitorPhone"

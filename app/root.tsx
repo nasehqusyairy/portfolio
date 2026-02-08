@@ -9,8 +9,8 @@ import {
 
 import type { Route } from "./+types/root";
 import "./app.css";
-import { ThemeProvider } from "./components/providers/ThemeProvider";
-import Navbar from "./components/Navbar";
+import { ThemeProvider } from "./components/providers/theme-provider";
+import Navbar from "./components/navbar";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -24,20 +24,6 @@ export const links: Route.LinksFunction = () => [
     href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
   },
 ];
-
-export function meta() {
-  return [
-    { title: "Nasyikh's Portfolio" },
-    {
-      property: "og:title",
-      content: "Nasyikh's Portfolio",
-    },
-    {
-      name: "description",
-      content: "Welcome to Nasyikh's personal portfolio website, showcasing projects and skills.",
-    },
-  ];
-}
 
 
 export function Layout({ children }: { children: React.ReactNode }) {

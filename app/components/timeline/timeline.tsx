@@ -1,4 +1,4 @@
-import TimelineItem from "./TimelineItem";
+import TimelineItem from "./item";
 import timelineData from "~/data/experiences.json";
 
 type Experience = {
@@ -12,8 +12,8 @@ type Experience = {
 
 export default function Timeline() {
   return (
-    <div className="grid grid-cols-12 gap-4 max-w-7xl">
-      <div className="@container grid gap-4 gap-y-0 relative col-span-12">
+    <div className="gap-4 grid grid-cols-12 max-w-7xl">
+      <div className="@container relative gap-4 gap-y-0 grid col-span-12">
         {(timelineData as Experience[]).map((item, index) => (
           <TimelineItem key={index} {...item} />
         ))}
