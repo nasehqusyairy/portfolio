@@ -13,7 +13,7 @@ type GalleryItemProps = {
 export default ({ src, title, thumbnail, caption, badges, onOpen }: GalleryItemProps) => {
   return (
     <Card
-      className="group flex flex-col bg-background lg:bg-card shadow-none border-transparent lg:border-border rounded-xl w-full h-full overflow-hidden cursor-pointer"
+      className="group flex flex-col bg-background shadow-none border-transparent lg:border-border rounded-xl w-full h-full overflow-hidden cursor-pointer"
       onClick={onOpen}
     >
       {/* Gambar dengan Rasio Tetap */}
